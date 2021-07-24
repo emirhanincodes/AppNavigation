@@ -1,9 +1,9 @@
 import 'react-native-gesture-handler';
 import * as React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createDrawerNavigator } from '@react-navigation/drawer';
-import {Text,Button,SafeAreaView,StatusBar,StyleSheet,ScrollView, View} from 'react-native'
-import {createStackNavigator} from '@react-navigation/stack'
+// import { NavigationContainer } from '@react-navigation/native';
+// import { createDrawerNavigator } from '@react-navigation/drawer';
+import { Text, Button, SafeAreaView, StatusBar, StyleSheet, ScrollView, View } from 'react-native'
+// import {createStackNavigator} from '@react-navigation/stack'
 import HomeScreen from './screens/HomeScreen'
 import DetailScreen from './screens/DetailScreen'
 
@@ -11,7 +11,7 @@ const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
 
 const App = () => {
-  return(
+  return (
     <NavigationContainer >
       {/* <Stack.Navigator screenOptions={{
         headerStyle:{
